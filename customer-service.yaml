@@ -1,7 +1,4 @@
 spring:
-  application:
-    name: customer-service
-
   h2:
     console:
       enabled: true
@@ -10,5 +7,3 @@ spring:
   cloud:
     discovery:
       enabled: true
-server:
-  port: 8081
